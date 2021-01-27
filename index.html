@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Sibdev Responsive by Pavlov Asgard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- SIDEBAR START -->
+
+    <div class="side-bar-container">
+        <div class="side-bar" id="sideBar">
+
+            <header class="side-bar-header" id="sideBarHeader">
+                <img src="src/images/side-bar-header-logo.svg" id="sideBarHeaderImg">
+                <div class="side-bar-logo" id="sideBarHeaderLogo">BECO</div>
+            </header>
+            
+            <div class="side-bar-categories">
+                <div class="category">
+                    <div>
+                        <span id="sideBarCategorySvgCatalog" style="background-image: url(./src/icons/catalog.svg)" class="icon" ></span>
+                        <div class="category-label" id="sideBarCategoryLabelCatalog">Каталог</div>
+                    </div>
+                </div>
+                <div class="category">
+                    <div>
+                        <span id="sideBarCategorySvgHealth" style="background-image: url(./src/icons/health.svg)" class="icon" ></span>
+                        <div class="category-label" id="sideBarCategoryLabelHealth">Здоровье</div>
+                    </div>
+                </div>
+                <div class="category">
+                    <div>
+                        <span id="sideBarCategorySvgBeauty" style="background-image: url(./src/icons/beauty.svg)" class="icon" ></span>
+                        <div class="category-label" id="sideBarCategoryLabelBeauty">Красота</div>
+                    </div>
+                </div>
+                <div class="category">
+                    <div>
+                        <span id="sideBarCategorySvgLeisure" style="background-image: url(./src/icons/enjoy.svg)" class="icon" ></span>
+                        <div class="category-label" id="sideBarCategoryLabelLeisure">Развлечения</div>
+                    </div>
+                </div>
+                <div class="category">
+                    <div>
+                        <span id="sideBarCategorySvgAuto" style="background-image: url(./src/icons/car.svg)" class="icon" ></span>
+                        <div class="category-label" id="sideBarCategoryLabelAuto">Авто</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    <!-- TOGGLE -->
+        
+        <div class="side-bar-button">
+            <input class="side-bar-button-chekbox" type="checkbox" onclick="sideBarPullRight()" id="sideBarToggle">
+            <img class="side-bar-button-icon" id="sideBarButton" alt="button icon">
+        </div>
+    </div>
+
+    <!-- RIGHT TOP INFO -->
+
+    <header class="side-container-header" id="sideContainerHeader">
+        <h3 class="category-name" id="categoryName">Развлечения</h3>
+        <input type="text" placeholder="Какой магазин вам нужен?" id="sideContainerInputSearchIcon"></input>
+    </header>
+
+    <!-- MENU CARDS -->
+
+    <div class="stores">
+
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_1.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">пробка на мира</div>
+                    <div class="card-top-description">Вечер для двоих</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">J130</div>
+                    <div class="card-bottom-label">КУПОН</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_2.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">кино и немцы</div>
+                    <div class="card-top-description">Бесплатный бокал пива</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">ВАРВАР</div>
+                    <div class="card-bottom-label">промокод</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_3.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">valery cakes</div>
+                    <div class="card-top-description">Торт</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">30%</div>
+                    <div class="card-bottom-label">скидка</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_4.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">sushi sell</div>
+                    <div class="card-top-description">Набор “Праздник”</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">45%</div>
+                    <div class="card-bottom-label">скидка</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_5.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">mangosteen</div>
+                    <div class="card-top-description">Фрукт в подарок</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">J130</div>
+                    <div class="card-bottom-label">купон</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_6.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">теленок табака</div>
+                    <div class="card-top-description">Стейк “Мачете”</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">20%</div>
+                    <div class="card-bottom-label">скидка</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_7.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">fire food</div>
+                    <div class="card-top-description">Вторая шаурма в подарок</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">ОГОНЬ</div>
+                    <div class="card-bottom-label">промокод</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_8.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div>
+                    <div class="card-top-title">aroma cremeria</div>
+                    <div class="card-top-description">Джелато “Пармезан”</div>
+                </div>
+                <div>
+                    <div class="card-bottom-num">20%</div>
+                    <div class="card-bottom-label">Скидка</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_1.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">пробка на мира</div>
+                    <div class="card-top-description">Вечер для двоих</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">J130</div>
+                    <div class="card-bottom-label">КУПОН</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_2.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">кино и немцы</div>
+                    <div class="card-top-description">Бесплатный бокал пива</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">ВАРВАР</div>
+                    <div class="card-bottom-label">промокод</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_3.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">valery cakes</div>
+                    <div class="card-top-description">Торт</div>
+                </div>
+                <div class="card-bottom">
+                    <div class="card-bottom-num">30%</div>
+                    <div class="card-bottom-label">скидка</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./src/images/products/image_4.png" alt="img">
+            </div>
+
+            <div class="description">
+                <div class="card-top">
+                    <div class="card-top-title">sushi sell</div>
+                    <div class="card-top-description">Набор “Праздник”</div>
+                </div>
+                <div class="-card-bottom">
+                    <div class="card-bottom-num">45%</div>
+                    <div class="card-bottom-label">скидка</div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
