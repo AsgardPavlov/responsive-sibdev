@@ -1,6 +1,3 @@
-#RESPONSIVE 
+https://asgardpavlov.github.io/responsive-sibdev/
 
-git-hub: spy.kazik
-e-mail: pasgard9@gmail.com
-
-for SibDev
+#RESPONSIVE for SibDev
